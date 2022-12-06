@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("#{$url-font}/MyriadPro-Regular.eot");
+    src: url("#{$url-font}/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("#{$url-font}/MyriadPro-Regular.woff2") format("woff2"),
+        url("#{$url-font}/MyriadPro-Regular.woff") format("woff"),
+        url("#{$url-font}/MyriadPro-Regular.ttf") format("truetype"),
+        url("#{$url-font}/MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("#{$url-font}/MyriadPro-Bold.eot");
+    src: url("#{$url-font}/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+        url("#{$url-font}/MyriadPro-Bold.woff2") format("woff2"), url("#{$url-font}/MyriadPro-Bold.woff") format("woff"),
+        url("#{$url-font}/MyriadPro-Bold.ttf") format("truetype"),
+        url("#{$url-font}/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("#{$url-font}/MyriadPro-Semibold.eot");
+    src: url("#{$url-font}/MyriadPro-Semibold.eot?#iefix") format("embedded-opentype"),
+        url("#{$url-font}/MyriadPro-Semibold.woff2") format("woff2"),
+        url("#{$url-font}/MyriadPro-Semibold.woff") format("woff"),
+        url("#{$url-font}/MyriadPro-Semibold.ttf") format("truetype"),
+        url("#{$url-font}/MyriadPro-Semibold.svg#MyriadPro-Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Corinthia";
+    src: url("Corinthia-Regular.eot");
+    src: url("Corinthia-Regular.eot?#iefix") format("embedded-opentype"), url("Corinthia-Regular.woff2") format("woff2"),
+        url("Corinthia-Regular.woff") format("woff"), url("Corinthia-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Corinthia";
+    src: url("Corinthia-Bold.eot");
+    src: url("Corinthia-Bold.eot?#iefix") format("embedded-opentype"), url("Corinthia-Bold.woff2") format("woff2"),
+        url("Corinthia-Bold.woff") format("woff"), url("Corinthia-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Black.eot");
+    src: url("Georama-Black.eot?#iefix") format("embedded-opentype"), url("Georama-Black.woff2") format("woff2"),
+        url("Georama-Black.woff") format("woff"), url("Georama-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-BlackItalic.eot");
+    src: url("Georama-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-BlackItalic.woff2") format("woff2"), url("Georama-BlackItalic.woff") format("woff"),
+        url("Georama-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Bold.eot");
+    src: url("Georama-Bold.eot?#iefix") format("embedded-opentype"), url("Georama-Bold.woff2") format("woff2"),
+        url("Georama-Bold.woff") format("woff"), url("Georama-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-ExtraBoldItalic.eot");
+    src: url("Georama-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-ExtraBoldItalic.woff2") format("woff2"), url("Georama-ExtraBoldItalic.woff") format("woff"),
+        url("Georama-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-ExtraBold.eot");
+    src: url("Georama-ExtraBold.eot?#iefix") format("embedded-opentype"), url("Georama-ExtraBold.woff2") format("woff2"),
+        url("Georama-ExtraBold.woff") format("woff"), url("Georama-ExtraBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-BoldItalic.eot");
+    src: url("Georama-BoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-BoldItalic.woff2") format("woff2"), url("Georama-BoldItalic.woff") format("woff"),
+        url("Georama-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-ExtraLightItalic.eot");
+    src: url("Georama-ExtraLightItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-ExtraLightItalic.woff2") format("woff2"), url("Georama-ExtraLightItalic.woff") format("woff"),
+        url("Georama-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Italic.eot");
+    src: url("Georama-Italic.eot?#iefix") format("embedded-opentype"), url("Georama-Italic.woff2") format("woff2"),
+        url("Georama-Italic.woff") format("woff"), url("Georama-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Light.eot");
+    src: url("Georama-Light.eot?#iefix") format("embedded-opentype"), url("Georama-Light.woff2") format("woff2"),
+        url("Georama-Light.woff") format("woff"), url("Georama-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-ExtraLight.eot");
+    src: url("Georama-ExtraLight.eot?#iefix") format("embedded-opentype"),
+        url("Georama-ExtraLight.woff2") format("woff2"), url("Georama-ExtraLight.woff") format("woff"),
+        url("Georama-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-LightItalic.eot");
+    src: url("Georama-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-LightItalic.woff2") format("woff2"), url("Georama-LightItalic.woff") format("woff"),
+        url("Georama-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Regular.eot");
+    src: url("Georama-Regular.eot?#iefix") format("embedded-opentype"), url("Georama-Regular.woff2") format("woff2"),
+        url("Georama-Regular.woff") format("woff"), url("Georama-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-MediumItalic.eot");
+    src: url("Georama-MediumItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-MediumItalic.woff2") format("woff2"), url("Georama-MediumItalic.woff") format("woff"),
+        url("Georama-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Medium.eot");
+    src: url("Georama-Medium.eot?#iefix") format("embedded-opentype"), url("Georama-Medium.woff2") format("woff2"),
+        url("Georama-Medium.woff") format("woff"), url("Georama-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-SemiBoldItalic.eot");
+    src: url("Georama-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-SemiBoldItalic.woff2") format("woff2"), url("Georama-SemiBoldItalic.woff") format("woff"),
+        url("Georama-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-SemiBold.eot");
+    src: url("Georama-SemiBold.eot?#iefix") format("embedded-opentype"), url("Georama-SemiBold.woff2") format("woff2"),
+        url("Georama-SemiBold.woff") format("woff"), url("Georama-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iCiel Panton";
+    src: url("iCielPanton-Black.eot");
+    src: url("iCielPanton-Black.eot?#iefix") format("embedded-opentype"), url("iCielPanton-Black.woff2") format("woff2"),
+        url("iCielPanton-Black.woff") format("woff"), url("iCielPanton-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iCiel Panton";
+    src: url("iCielPanton-Light.eot");
+    src: url("iCielPanton-Light.eot?#iefix") format("embedded-opentype"), url("iCielPanton-Light.woff2") format("woff2"),
+        url("iCielPanton-Light.woff") format("woff"), url("iCielPanton-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-Thin.eot");
+    src: url("Georama-Thin.eot?#iefix") format("embedded-opentype"), url("Georama-Thin.woff2") format("woff2"),
+        url("Georama-Thin.woff") format("woff"), url("Georama-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Georama";
+    src: url("Georama-ThinItalic.eot");
+    src: url("Georama-ThinItalic.eot?#iefix") format("embedded-opentype"),
+        url("Georama-ThinItalic.woff2") format("woff2"), url("Georama-ThinItalic.woff") format("woff"),
+        url("Georama-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iCiel Panton";
+    src: url("iCielPanton-BlackItalic.eot");
+    src: url("iCielPanton-BlackItalic.eot?#iefix") format("embedded-opentype"),
+        url("iCielPanton-BlackItalic.woff2") format("woff2"), url("iCielPanton-BlackItalic.woff") format("woff"),
+        url("iCielPanton-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "iCiel Panton";
+    src: url("iCielPanton-LightItalic.eot");
+    src: url("iCielPanton-LightItalic.eot?#iefix") format("embedded-opentype"),
+        url("iCielPanton-LightItalic.woff2") format("woff2"), url("iCielPanton-LightItalic.woff") format("woff"),
+        url("iCielPanton-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
